@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(128, 128, 228);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(11, 11, 172);
+}
+:root {
+    --color: #fff;
+    --hover: #787878;
+}
+.cars {
+    width: 100%;
+    min-height: 110vh;
+    background: url(../img/cars/cars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.futbol {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/futbol/futbol.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.programming {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/programing/programming.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.card {
+    width: 250px;
+}
+.card img {
+    width: 200px;
+}
